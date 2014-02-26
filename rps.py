@@ -27,6 +27,7 @@ class Rps():
             pass
         else:
             print "enter y or n"
+            self.replay()
 
     def randomize(self, computer_values):
         random.shuffle(computer_values)
