@@ -7,7 +7,10 @@ Created on Tue Feb 25 18:57:17 2014
 import random
 
 class rps():
+    """
+    A simple game of rock papers and scissors
 
+    """
     def __init__(self):
         values = ['rock', 'paper', 'scissors']
         player_values = raw_input('Show the shape of your fist')
