@@ -6,7 +6,7 @@ Created on Tue Feb 25 18:57:17 2014
 """
 import random
 
-class rps():
+class Rps():
     """
     A simple game of rock papers and scissors
 
@@ -59,5 +59,5 @@ class rps():
                     print "You win"
                     self.replay()
 
-a = rps()
+a = Rps()
 a.__init__
