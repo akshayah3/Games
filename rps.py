@@ -39,24 +39,24 @@ class Rps():
         else:
             if player_value == 'rock':
                 if computer_values == 'paper':
-                    print "You Lose"
+                    print "You Lose, computer chose %s" % computer_values
                     self.replay()
                 else:
-                    print "You win"
+                    print "You win computer chose %s" % computer_values
                     self.replay()
             elif player_value == 'paper':
                 if computer_values == 'scissors':
-                    print "You lose"
+                    print "You lose computer chose %s" % computer_values
                     self.replay()
                 else:
-                    print "You win"
+                    print "You win computer chose %s" % computer_values
                     self.replay()
             elif player_value == 'rock':
                 if computer_values == 'paper':
-                    print "you lose"
+                    print "you lose computer chose %s" % computer_values
                     self.replay()
                 else:
-                    print "You win"
+                    print "You win computer chose %s" % computer_values
                     self.replay()
 
 a = Rps()
