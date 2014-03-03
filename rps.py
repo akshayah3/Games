@@ -19,6 +19,9 @@ class Rps():
         if player_values in values:
             computer_values = self.randomize(values)
             return self.result(player_values, computer_values)
+        else:
+            'Enter a valid value'
+            self.replay()
 
     def replay(self):
         option = raw_input('Do you want to play again ? (y/n)')
